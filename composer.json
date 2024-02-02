@@ -1,6 +1,6 @@
 {
-    "name": "phoenix/repository",
-    "description": "",
+    "name": "phpnomad/decorator",
+    "description": "Assists with implementing decorator patterns.",
     "type": "library",
     "homepage": "https://github.com/phoenix/core",
     "readme": "README.md",
@@ -19,9 +19,9 @@
             "Phoenix\\Core\\": "lib/"
         }
     },
-    "autoload-dev": {
+    "autoload": {
         "psr-4": {
-            "Phoenix\\Core\\Tests\\": "tests/"
+            "PHPNomad\\Decorator\\": "lib/"
         }
     },
     "authors": [
