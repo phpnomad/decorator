@@ -16,11 +16,6 @@
     ],
     "autoload": {
         "psr-4": {
-            "Phoenix\\Core\\": "lib/"
-        }
-    },
-    "autoload": {
-        "psr-4": {
             "PHPNomad\\Decorator\\": "lib/"
         }
     },
