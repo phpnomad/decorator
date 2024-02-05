@@ -1,7 +1,7 @@
 <?php
-namespace PHPNomad\Decorator;
+namespace PHPNomad\Decorator\Traits;
 
-trait Decorator
+trait WithDecoratedInstance
 {
     /**
      * @var mixed
@@ -11,7 +11,7 @@ trait Decorator
 
     /**
      * __call is triggered when invoking inaccessible methods in an object context.
-     * This simply forwards any call to a method not found in the current class to the decoratedInstance.
+     * This forwards any allowed method call to a method not found in the current class to the decoratedInstance.
      *
      * @param string $method
      * @param array $arguments
