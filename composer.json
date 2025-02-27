@@ -1,6 +1,7 @@
 {
     "name": "phpnomad/decorator",
     "description": "Assists with implementing decorator patterns.",
+    "version": "1.0.0",
     "type": "library",
     "homepage": "https://github.com/phoenix/core",
     "readme": "README.md",
